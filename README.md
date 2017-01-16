@@ -1,2 +1,2 @@
 # toyclash.com
-toyclas.com
+toyclash.com
