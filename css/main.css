@@ -95,16 +95,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    margin: auto;
+    max-width: 960px;
+    width: 100%;
 
+    background: #ddd;
+}
 
+iframe {
+    max-width: 100%;
+}
 
+img {
+    max-width: 100%;
+}
 
+.screenshot {
+    padding: 10px 0;
+}
 
-
-
-
-
-
+.company-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 
 
