@@ -22,3 +22,21 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+window.onload = function() {
+    var tables = document.querySelectorAll('table');
+    for(var i = 0 ; i < tables.length ; i++) {
+        if(!tables[i].classList.contains('pure-table')) {
+            tables[i].classList.add('pure-table');
+        }
+    }
+
+    var press = document.querySelector('.press-content');
+    if(press !== null) {
+        var imgs = press.querySelectorAll('img');
+        for(var i = 0 ; i < imgs.length ; i++) {
+            imgs[i].classList.add('pure-img');
+        }
+    }
+
+};
