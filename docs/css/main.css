@@ -10,19 +10,20 @@
 }
 
 body {
-    font-family: 'NanumGothic','나눔고딕','NanumGothicWeb',ng,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+    font-family: 'Montserrat','NanumGothic','나눔고딕','NanumGothicWeb',ng,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
     background: #313131;
     color: #fff;
 }
 div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,fieldset,p,button,input,textarea,select,a {
-    font-family: 'NanumGothic','나눔고딕','NanumGothicWeb',ng,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+    font-family: 'Montserrat','NanumGothic','나눔고딕','NanumGothicWeb',ng,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
 }
 
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp {
     border: 0;
     margin: 0;
     padding: 0;
-    font-size: 100%
+    /*font-size: 100%;*/
+    font-size: 1.05em;
 }
 
 .upper-case {
@@ -58,7 +59,7 @@ a:hover {
 }
 
 p {
-    word-break: break-all;
+    word-break: normal;
 }
 
 h1 {
@@ -77,7 +78,7 @@ table {
     padding: 10px 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 568px) {
     h1 {
         padding-left: 10px;
     }
@@ -162,11 +163,11 @@ header .overlay .download {
     margin-left: auto;
     margin-right: auto;
 
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fdc444;
 }
 header .overlay .download img {
-    width: 70%;
+    width: 60%;
 }
 
 header a {
@@ -175,17 +176,18 @@ header a {
 header .store-logo {
     display: block;
     margin: 0 auto;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .index-desc-large {
-    padding: 20px 0;
-    text-align: center;
+    margin: auto;
+    width:100%;
+    max-width: 650px;
 }
 
 .index-desc {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     line-height: 1.8em;
 }
 
@@ -196,14 +198,14 @@ header .store-logo {
 }
 
 .list-features {
-    padding: 2.0em 0 2.0em 5.0em;
+    padding: 10px 0 10px 5.0em;
 }
 
 .list-features li {
     padding: 0.3em 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 568px) {
     .list-features {
         padding-left: 0.4em;
     }
@@ -232,6 +234,9 @@ header .store-logo {
     width: 100%;
     padding-bottom: 30px;
 }
+.footer-tail small {
+    font-size: 70%;
+}
 
 iframe {
     max-width: 100%;
@@ -251,6 +256,9 @@ iframe {
     display: block;
     margin: 0 auto;
     padding: 20px 0;
+}
+.company-logo {
+    width: 300px;
 }
 
 .press-content img {
