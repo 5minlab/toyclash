@@ -54,4 +54,20 @@ window.onload = function() {
 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
 		}
 	});
+
+    // http://stackoverflow.com/questions/15164942/stop-embedded-youtube-iframe
+    var trailer = $('.trailer-video');
+    trailer.click(function() {
+        $('.youtube-player-iframe').each(function(){
+          this.contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*')
+        });
+        trailer.hide();
+    })
+
+    $('.play-trailer').click(function() {
+        trailer.show();
+        $('.youtube-player-iframe').each(function(){
+          this.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*')
+        });
+    });
 };
