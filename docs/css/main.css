@@ -27,7 +27,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 .upper-case {
-    font-family: 'BIGJOHN','NanumGothic','나눔고딕','NanumGothicWeb',ng,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;
+    font-family: 'BIGJOHN';
     text-transform: uppercase;
 }
 
