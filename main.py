@@ -33,6 +33,7 @@ def build():
     )
 
     ctx_common = {
+        "timestamp": int(time.time()),
     }
     ctx_english = {
         "root_link" : "/",
