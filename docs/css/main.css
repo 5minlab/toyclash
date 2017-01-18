@@ -189,6 +189,7 @@ header .store-logo {
     text-align: center;
     padding: 20px 0;
     line-height: 1.8em;
+    word-break: normal;
 }
 
 .content {
