@@ -179,18 +179,20 @@ header .store-logo {
     padding: 10px 0;
 }
 
-.index-desc-large {
-    margin: auto;
-    width:100%;
-    max-width: 650px;
-}
-
 .index-desc {
     text-align: center;
     padding: 20px 0;
     line-height: 1.8em;
     word-break: normal;
 }
+
+.index-desc-large {
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px 0;
+}
+
 
 .content {
     margin: auto;
@@ -221,7 +223,7 @@ header .store-logo {
 
 .footer-head {
     text-align: center;
-    padding: 20px 0;
+    padding: 70px 0;
 }
 .footer-head li {
     padding: 0.5em 0;
@@ -273,7 +275,15 @@ iframe {
 .press-content table td {
     border: 0;
 }
-
 .press-content table thead {
     display: none;
+}
+.press-content h1 {
+    margin-top: 60px;
+}
+.press-content p,
+.press-content ul,
+.press-content ol {
+    line-height: 1.5em;
+    padding-bottom: 40px;
 }
