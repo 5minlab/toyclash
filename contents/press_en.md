@@ -1,4 +1,4 @@
-## Press Kit
+# Press Kit
 * Game Title: Toy Clash
 * Developer: 5minlab (Seoul, Korea)
 * Release Date: January 18th, 2017
