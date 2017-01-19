@@ -58,16 +58,18 @@ window.onload = function() {
     // http://stackoverflow.com/questions/15164942/stop-embedded-youtube-iframe
     var trailer = $('.trailer-video');
     trailer.click(function() {
-        $('.youtube-player-iframe').each(function(){
-          this.contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*')
+        trailer.hide(500, function() {
+            $('.youtube-player-iframe').each(function(){
+                this.contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*')
+            });
         });
-        trailer.hide();
     })
 
     $('.play-trailer').click(function() {
-        trailer.show();
-        $('.youtube-player-iframe').each(function(){
-          this.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*')
+        trailer.show(500, function() {
+            $('.youtube-player-iframe').each(function(){
+                this.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*')
+            });
         });
     });
 };
