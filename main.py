@@ -121,6 +121,8 @@ class BuildEventHandler(FileSystemEventHandler):
 
 
 if __name__ == '__main__':
+    build()
+    print("build one time")
 
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
@@ -136,7 +138,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
-
-    #build()
 
 
