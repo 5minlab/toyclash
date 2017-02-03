@@ -42,21 +42,6 @@ Upgrade your toys and use your own strategy to win.
 * 6 unique toy units, 6 powerful spells
 * Challenge all missions and collect 96 stars.
 
-## Credits
-Name | Job
------|-----
-Soochan Park |          Game Directing, Level Design
-Byunghoo Yu  |          System / Content Programming
-Hongil Jang  |            Modeling / Lighting
-Pyeongguk Lee |        UI / Content Programming
-Jin Park      |               UI Design / 2D Animations
-Whanjun Kim   |         VFX
-Juho Lee     |           3D Animations
-Jiyoung Yang  |         QA
-Eric Song     |            Sound Management
-Sena Kim      |           Game Logo
-Moon Park     |          Team Management
-Big Band Corp |        SFX
 
 ## Contact
 If you need any help on the game play issue, please contact [helpers@5minlab.com](mailto:helpers@5minlab.com).
