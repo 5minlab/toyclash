@@ -45,7 +45,6 @@ def build():
     }
 
     game_info = md_file_to_html(os.path.join(CONTENT_DIR, "game_info.md"))
-    team_info = md_file_to_html(os.path.join(CONTENT_DIR, "team_info.md"))
 
     # english
     write_html(j2_env, "index.j2", "index.html", **ctx_common, **ctx_english)
@@ -54,10 +53,8 @@ def build():
         **ctx_common, **ctx_english,
         press_html=md_file_to_html(os.path.join(CONTENT_DIR, "press_en.md")),
         game_info_html=game_info,
-        team_info_html=team_info,
         locale="en",
         game_info_title="Game Assets",
-        team_info_title="Team Photo",
     )
 
     # korean
@@ -67,10 +64,8 @@ def build():
         **ctx_common, **ctx_korean,
         press_html=md_file_to_html(os.path.join(CONTENT_DIR, "press_ko.md")),
         game_info_html=game_info,
-        team_info_html=team_info,
         locale="ko",
         game_info_title="게임 자료",
-        team_info_title="팀 사진",
     )
 
     print("rebuild site")
