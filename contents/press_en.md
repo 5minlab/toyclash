@@ -1,9 +1,9 @@
 # Press Kit
 * Game Title: Toy Clash
 * Developer: 5minlab (Seoul, Korea)
-* Release Date: January 18th, 2017
-* Platform: Samsung Gear VR (More platforms to be supported soon)
-* Website: [http://toyclash.com](http://toyclash.com)
+* Release Date: January 18th, 2017 (Samsung Gear VR), February 22th, 2017 (Google Daydream)
+* Platform: Samsung Gear VR, Google Daydream (More platforms to be supported soon)
+* Website: [https://toyclash.com](https://toyclash.com)
 * Language: English (More languages ​​will be available soon)
 * Price: 2.99 USD
 
@@ -20,7 +20,7 @@ So you decided to cooperate with them to drive the bad toy out of your room.
 ## About 5minlab
 We are a group of game developers from South Korea. We found our company in 2013, with a mission to "make games that are not too mundane". We don't really have a preference or bias on particular platform to make games, but our recent interest surely lies on Virtual Reality.
 We have very free and experimental spirit in making/playing games, and hence been doing a variety of activities such as conference attending and organizing Global Game Jam every year.
-If you are still curious about us, please visit our website, [http://5minlab.com](http://5minlab.com)!
+If you are still curious about us, please visit our website, [https://5minlab.com](https://5minlab.com)!
 
 ## Amongst many VR devices, why Samsung Gear VR?
 VR device can provide a whole new experience that no other device could ever offer. But sadly, most of these devices are still too expensive, and it makes most of consumers to feel difficult to have a bit of taste about VR.

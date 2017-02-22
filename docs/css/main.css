@@ -203,14 +203,24 @@ header .overlay .download {
     font-size: 1.2em;
     color: #fdc444;
 }
-header .overlay .download img {
-    width: 60%;
-}
 
 header a {
     display: inline-block;
 }
+
 header .store-logo {
+    box-sizing: border-box;
+    width: auto;
+    height: 80px;
+}
+
+header .store-logo-gearvr {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header .store-logo-daydream {
     display: block;
     margin: 0 auto;
     padding: 10px 0;
