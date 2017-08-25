@@ -226,6 +226,13 @@ header .store-logo-daydream {
     padding: 10px 0;
 }
 
+header .store-logo-steam {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 15px/25px;
+}
+
 .index-desc {
     text-align: center;
     padding: 20px 0;
@@ -325,9 +332,12 @@ header .store-logo-daydream {
 .press-content h1 {
     margin-top: 60px;
 }
+.press-content h2 {
+    margin-top: 40px;
+}
+
 .press-content p,
 .press-content ul,
 .press-content ol {
     line-height: 1.5em;
-    padding-bottom: 40px;
 }

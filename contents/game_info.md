@@ -1,4 +1,4 @@
-<iframe width="720" height="400" src="https://www.youtube.com/embed/i8PdpbXy2W8" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="400" src="https://www.youtube.com/embed/nFWhLQWOoUs" frameborder="0" allowfullscreen></iframe>
 
 ### Game Cover
 [![cover square](/press-kit/ToyClashAssets/resized-cover-square.jpg)](/press-kit/ToyClashAssets/cover-square.png)

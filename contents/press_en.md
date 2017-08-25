@@ -1,11 +1,21 @@
 # Press Kit
 * Game Title: Toy Clash
 * Developer: 5minlab (Seoul, Korea)
-* Release Date: January 18th, 2017 (Samsung Gear VR), February 22th, 2017 (Google Daydream)
-* Platform: Samsung Gear VR, Google Daydream (More platforms to be supported soon)
+* Release Date
+    * January 18th, 2017 (Samsung Gear VR)
+    * February 22th, 2017 (Google Daydream)
+    * August 25th, 2017 (Steam)
+* Platform
+    * Samsung Gear VR
+    * Google Daydream
+    * Steam(HTC Vive, Oculus Rift)
+    * (More platforms to be supported soon)
 * Website: [https://toyclash.com](https://toyclash.com)
 * Language: English (More languages ​​will be available soon)
-* Price: 2.99 USD
+* Price
+    * Samsung GearVR: 2.99 USD
+    * Google Daydream: 4.99 USD
+    * Steam : 9.99 USD
 
 ## What is Toy Clash?
 Toy Clash is a tower offense game in which you place your toys on the battlefield to protect your tower from enemy attacks and destroy opponent towers.
