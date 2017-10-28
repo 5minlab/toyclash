@@ -233,6 +233,12 @@ header .store-logo-steam {
     border-radius: 15px/25px;
 }
 
+header .store-logo-app-store {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
 .index-desc {
     text-align: center;
     padding: 20px 0;
