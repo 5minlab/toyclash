@@ -239,6 +239,12 @@ header .store-logo-app-store {
     padding: 10px 0;
 }
 
+header .store-logo-windows-store {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
 .index-desc {
     text-align: center;
     padding: 20px 0;
