@@ -3,8 +3,8 @@ toyclash.com
 
 ## Build
 ```bash
-pip install -r requirements.txt
-./main.py
+pipenv install
+pipenv run python ./main.py
 
 # build result : /docs
 # use http server to serving

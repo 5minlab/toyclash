@@ -120,7 +120,7 @@ header .underlay {
 }
 
 header {
-    height: 720px;
+    height: 800px;
 }
 
 header .overlay {
@@ -195,7 +195,7 @@ header .overlay .play-trailer img {
 
 header .overlay .download {
     position: absolute;
-    bottom: 5px;
+    bottom: -80px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -243,6 +243,13 @@ header .store-logo-windows-store {
     display: block;
     margin: 0 auto;
     padding: 10px 0;
+}
+
+header .store-logo-psvr {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 15px/30px;
 }
 
 .index-desc {
