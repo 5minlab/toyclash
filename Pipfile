@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"Jinja2" = "==2.9.4"
+Markdown = "==2.6.7"
+watchdog = "==0.8.3"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
